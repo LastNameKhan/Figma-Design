@@ -11,13 +11,13 @@ import slack from './images/slack.png';
 import CheckIcon from '@mui/icons-material/Check';
 import file from "./images/file.png"
 
-const Page1 = () => {
+const Page2 = () => {
     return (
         <>
             <Container>
 
                 {/* -------------------------First page----------------------------------------------------------- */}
-                <Grid container sx={{ mt: 18 }}>
+                <Grid container sx={{ mt: {lg:18, md:18, sm:5, xs:5} }}>
                     <Grid item lg={3} md={3} sm={12} xs={12}></Grid>
 
                     <Grid item lg={6} md={6} sm={12} xs={12}>
@@ -28,32 +28,36 @@ const Page1 = () => {
                     <Grid item lg={3} md={3} sm={12} xs={12}></Grid>
                 </Grid>
 
-                <Grid container sx={{ mt: 5 }} spacing={15}>
+                <Grid container sx={{ mt: {lg:5, md:5,sm:1,xs:1} }} spacing={2}>
                     <Grid item lg={1} md={1} sm={12} xs={12}></Grid>
 
                     <Grid item lg={5} md={5} sm={12} xs={12} sx={{ padding: '10px' }}>
                         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                            <Box>
+                            <Box className="img-box">
                                 <img src={slack} alt="slack" />
                             </Box>
-                            <Box>
+                            <Box className="img-box">
                                 <img src={grid} alt="grid" />
                             </Box>
                         </Box>
-                        <Box sx={{ display: 'flex', justifyContent: 'center', mt: 5 }}>
+                        <Box  sx={{ display: 'flex', justifyContent: 'center', mt: 5 }}>
+                            <Box className="img-box">
                             <img src={bot} alt="bot" />
+                            </Box>
                         </Box>
                     </Grid>
 
                     <Grid item lg={5} md={5} sm={12} xs={12} >
-                        <Box sx={{ display: 'flex', justifyContent: 'center', }}>
+                        <Box  sx={{ display: 'flex', justifyContent: 'center', }}>
+                            <Box className="img-box">
                             <img src={school} alt="bot" />
+                            </Box>
                         </Box>
-                        <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 5 }}>
-                            <Box>
+                        <Box  sx={{ display: 'flex', justifyContent: 'space-between', mt: 5 }}>
+                            <Box className="img-box">
                                 <img src={skype} alt="slack" />
                             </Box>
-                            <Box>
+                            <Box className="img-box">
                                 <img src={arrow} alt="grid" />
                             </Box>
                         </Box>
@@ -68,7 +72,6 @@ const Page1 = () => {
 
                 {/* -----------------------------------Second Page--------------------------------------------------- */}
                 <Grid container sx={{}} spacing={6}>
-                    {/* <Grid item lg={1} md={1} sm={12} xs={12}></Grid> */}
 
                     <Grid item lg={6} md={6} sm={12} xs={12}>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: "120%", width: "100%", padding: '10px' }} >
@@ -132,7 +135,7 @@ const Page1 = () => {
                             </Box>
                         </Box>
                     </Grid>
-                    <Grid item lg={6} md={6} sm={12} xs={12}>
+                    <Grid item lg={6} md={6} sm={12} xs={12} sx={{marginTop:'137px'}}>
                         <Typography variant='h6' sx={{ color: '#1976d2', letterSpacing: '5px', mb: 5, fontWeight: 600 }}>EASY AND FASTER</Typography>
                         <Typography sx={{ fontSize: '40px', fontWeight: 650 }} variant='h3'>we provide excellent management services.</Typography>
 
@@ -141,12 +144,10 @@ const Page1 = () => {
                         <Typography sx={{ color: "#424242", mt: 5 }}>There are many variations of passages of lorem ipsum available, but the majority have suffred alteration in some form. There are many variations of passages of lorem ipsum available, but the majority have suffred alteration in some form.</Typography>
                     </Grid>
 
-                    {/* <Grid item lg={1} md={1} sm={12} xs={12}></Grid> */}
-
                 </Grid>
 
                 {/* -------------------------------Third page------------------------------------------------------------ */}
-                <Grid container sx={{ mt: 15 }} spacing={10}>
+                <Grid container sx={{ mt:{lg:15, md:15, sm:3, xs:1} }} spacing={10}>
                     {/* <Grid item lg={1} md={1} sm={12} xs={12}></Grid> */}
                     <Grid item lg={6} md={6} sm={12} xs={12}>
                         <Typography variant='h6' sx={{ color: '#1976d2', letterSpacing: '5px', mb: 5, fontWeight: 600 }}>WEB PLATEFORM</Typography>
@@ -171,4 +172,4 @@ const Page1 = () => {
     )
 }
 
-export default Page1
+export default Page2
