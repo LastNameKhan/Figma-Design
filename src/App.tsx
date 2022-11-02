@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< Updated upstream
+=======
+import Page1 from './component/ThreeCards/Page1';
+>>>>>>> Stashed changes
 
 function App() {
   return (
