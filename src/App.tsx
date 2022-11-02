@@ -1,4 +1,15 @@
 import React from 'react';
+<<<<<<< HEAD
+import './App.css';
+import First from './First/First';
+import Bottom from './Bottom/Bottom';
+function App() {
+  return (
+    <>
+      <First />
+      <Bottom />
+    </>
+=======
 import Footer from './Components/Footer/Footer';
 import Firstpage from './Components/Footer/Firstpage';
 import './App.css';
@@ -15,6 +26,7 @@ function App() {
       <Firstpage />
       <Footer />
       </div>
+>>>>>>> 852d80421a3aa0bfc5a24460bf9cec55428599b7
   );
 }
 

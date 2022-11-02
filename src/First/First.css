@@ -1,0 +1,59 @@
+.icon:hover {
+  color: #289ff3;
+  border-radius: 20px;
+  /* padding: 5px; */
+  background-color: white;
+  transition: 1s;
+}
+.Newbtn:hover {
+  background-color: white;
+  color: #289ff3;
+  transition: 0.5s;
+}
+
+.option Button {
+  color: white;
+}
+
+.cart Button {
+  background-color: #3eaaf5;
+  /* opacity: 40%; */
+  color: white;
+}
+
+.cart Button:hover {
+  background-color: white;
+  /* opacity: 40%; */
+  color: #3eaaf5;
+  transition: 0.5s;
+}
+
+/* Menus___________________________________ */
+
+.option > Button {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.option > Button:hover::after {
+  width: 100%;
+  height: 8%;
+}
+.option > Button::before {
+  content: '';
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.option > Button:hover::before {
+  width: 100%;
+  height: 8%;
+}
