@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Page1 from './component/Page1';
+import Page1 from './component/ThreeCards/Page1';
 
 function App() {
   return (
