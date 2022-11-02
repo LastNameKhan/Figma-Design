@@ -1,12 +1,17 @@
 import React from 'react';
+import Footer from './Components/SecondPage/Footer';
+import Firstpage from './Components/SecondPage/Firstpage';
 import './App.css';
-import Page1 from './component/ThreeCards/Page1';
+import Box from '@mui/material/Box';
 
 function App() {
   return (
-    <div className="App">
-    <Page1/>
-    </div>
+    <>
+    <Firstpage/> 
+    <Footer/>   
+    </>
+
+
   );
 }
 
