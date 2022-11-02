@@ -9,10 +9,12 @@ import Page2 from './components/Page2';
 function App() {
   return (
     <div className="App">
-      {/* <Page1/> */}
+      <Page1/>
       <Mobile/>
       <Page2/>
-        </div>
+      <Firstpage />
+      <Footer />
+      </div>
   );
 }
 
