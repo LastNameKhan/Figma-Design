@@ -161,7 +161,7 @@ const First = () => {
             <Grid item lg={5} md={5} sm={12} xs={12}>
               <Box
                 sx={{
-                  width: 'autp',
+                  width: '100%',
                   // width: 'auto',
                   mt: '-100px',
                   overflow: 'hidden',
@@ -169,7 +169,7 @@ const First = () => {
                   display: { lg: 'block', md: 'block', sm: 'none', xs: 'none' },
                 }}
               >
-                <img src={mobile} style={{ width: '600px' }} />
+                <img src={mobile} style={{ width: '100%' }} />
               </Box>
             </Grid>
             <Grid item lg={1} md={1}></Grid>

@@ -132,11 +132,11 @@ const Bottom = () => {
             <Box
               sx={{
                 mt: { lg: '-100px', md: '-100px', sm: '10px', xs: '10px' },
-                width: '700px',
+                width: '100%',
                 height: 'auto',
               }}
             >
-              <img src={mobile2} style={{ height: 'auto', width: '700px' }} />
+              <img src={mobile2} style={{ height: 'auto', width: '100%' }} />
             </Box>
           </Grid>
         </Grid>
