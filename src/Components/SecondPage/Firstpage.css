@@ -1,0 +1,13 @@
+#btndownload{
+    background-color: white;
+    padding:1em 2em;
+}
+
+#btndownload:hover{
+    background-color:#289ff3;
+    color: white;
+   border: 1px solid white;
+ 
+}
+
+/* btnanimation */
