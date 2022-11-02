@@ -1,0 +1,57 @@
+h1{
+    color: rgb(173, 173, 0);
+}
+
+
+.box-card1{
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* width: 100%; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  
+    /* top: 10px; */
+    margin-top: 15px;
+
+}
+
+
+.box-card2{
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* width: 300px; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-card3{
+    background:#1976d2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* width: 300px; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:20px;
+    display: flex;
+
+}
+
+
+
+.hello {
+    position: relative;
+}
+
+.hello::before {
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: 10%;
+    width: 80%;
+    height: 110%;
+    background-color: #ccc;
+    z-index: -1;
+
+}
